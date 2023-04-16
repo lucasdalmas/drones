@@ -1,0 +1,315 @@
+/* Trabalho realizado por Lucas Dalmas Batista e Souza rm551178 Turma 1ESOA*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#container{
+    width: 980px;
+    margin: auto;
+}
+/*header*/
+#logo{
+    width: 194px;
+    height: 146px;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: -25px;
+}
+.nav1{
+    background-color: #1b8e99;
+}
+.nav1 ul{
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    list-style-type: none;
+    padding: 7px;
+    margin-top: 20px;
+    height: 45px;
+
+}
+.nav1 a{
+    color: #DDEFF1;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 13px;
+
+}
+.nav1 a:hover{
+    color: #fff;
+    background-color: #92c9ce;
+    padding:  30px 13px;
+}
+.banner{
+    background-image: url(/img/banner.fw.png);
+    width: 980px;
+    height: 352px;
+}
+.nav2{
+    background-color: #600;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 7px;
+    height: 45px;
+
+}
+.nav2 a{
+    color: #DDEFF1;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin: 0px ;
+
+}
+.nav2 a:hover{
+    color: #600;
+    border: #600;
+    background-color: #fff;
+    margin: 0px;
+    padding:  30px 20px;
+}
+/*fim do header*/
+/*main*/
+    /*títulos*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+#titulo1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    margin-left: 16px;
+    height: 62px;
+}
+#titulo2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    margin-left: 16px;
+    height: 72px;
+}
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    width: 858px;
+    align-self: flex-end;
+    color: #600 ;
+}
+.titulo2{
+    display: flex;
+    flex-direction: column;
+    width: 858px;
+    align-self: flex-end;
+    color: #1b8e99 ;
+}
+#hr1{
+    background-color: #600;
+    height: 2px;
+    margin: 0px;
+}
+#hr2{
+    background-color: #444;
+    height: 16px;
+    margin: 0px 16px;
+}
+#hr3{
+    background-color: #1b8e99;
+    height: 2px;
+    margin: 0px;
+}
+#imgloja{
+    background-color: #fff;
+    width: 122px;
+    height: 72px;
+}
+#imgservicos{
+    background-color: #fff;
+    width: 123px;
+    height: 93px;
+}
+    /*fim dos titulos*/
+    /*conteudo*/
+h3{
+    height: 20px;
+    margin-block: 0.1em;
+    padding: 5px;
+}
+section {
+    height: 376px;
+    margin: 16px;
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    align-items: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 0.8125rem;
+    justify-content: space-between;
+}
+.vinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 376px;
+    width: 300px;
+    border:#600 1px solid;
+    color: #600;
+}
+.ciano{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 376px;
+    width: 300px;
+    border:#1b8e99 1px solid;
+    color: #1b8e99;
+}
+.ciano h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border: 0;
+    background-color: #DDEFF1;
+    text-align: center;
+}
+.vinho h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #E8DCDE;
+    text-align: center;
+}
+.ciano .preco{
+    background-color:#1b8e99;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 10px 10px;
+    margin: -1px;
+}
+.ciano .avista{
+    font-size: 1.875rem;
+    padding-bottom: 10px;
+}
+.ciano .parcela{
+    font-size: 0.875rem;
+}
+.vinho .preco{
+    background-color:#600;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 10px 10px;
+    margin: -1px;
+}
+.vinho .avista{
+    font-size: 1.875rem;
+    padding-bottom: 10px;
+}
+.vinho .parcela{
+    font-size: 0.875rem;
+}
+.carrinho{
+    background-color: #fff;
+    width: 56px;
+    height: 52px;
+    border-radius: 5px;
+    position: absolute;
+    align-self: flex-end;
+}
+p{
+    padding: 1em
+}
+#servicos{
+    margin-top: 32px;
+    align-items: flex-start;
+}
+#servicos h3{
+    background-color: #fff;
+    text-align: left;
+    margin: 7px;
+    padding: 0px;
+}
+#servicos div{
+    border-bottom-width: 10px;
+}
+#servicos .vinho{
+    height: 316px;
+    display: flow-root;
+}
+#servicos .ciano{
+    height: 316px;
+    display: flow-root;
+}
+#servicos p{
+    padding: 25px 7px;
+}
+    /*fim do conteudo*/
+/*footer:*/
+#drones{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 140px;
+}
+#drone3{
+    margin-left: -140px;
+}
+#rodape{
+    background-color: #1b8e99;
+    display: flex;
+    height: 96px;
+    padding-left: 20px;
+    align-items: center;
+    font-size: 0.875rem;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    gap: 70px;
+}
+#rodape2{
+    background-color: #600;
+    display: flex;
+    height: 26px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 0.875rem;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+#rodape2 p{
+    padding-bottom: 5px;
+    margin-right: 70px;
+}
+#professor{
+    position: absolute;
+    margin-left: 868px;
+}
